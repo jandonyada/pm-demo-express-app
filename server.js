@@ -30,8 +30,16 @@ app.get("/work", function (req, res) {
       description: "building websites for gahmen",
     },
     {
+      name: "Project GoBlock",
+      description: "building websites without code—using blocks.",
+    },
+    {
+      name: "Project MMORPG",
+      description: "allowing multiple content collaborators to publish independently on a single site.",
+    },
+    {
       name: "FarQueue",
-      description: "queuing from afar",
+      description: "queuing from afar.",
     },
   ];
 
