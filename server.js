@@ -14,7 +14,7 @@ app.get("/", function (req, res) {
     { name: "Jackson", department: "Product Ops", interest: "Shitposting" },
 
   ];
-  const tagline = "These are the 3 people in OGP I dislike the least! ";
+  const tagline = "These are the 3 people in OGP I dislike the least:";
 
   res.render("pages/index", {
     friends: friends,
