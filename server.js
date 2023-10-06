@@ -27,11 +27,11 @@ app.get("/work", function (req, res) {
   const works = [
     {
       name: "Isomer",
-      description: "Website builder for gahmen",
+      description: "building websites for gahmen",
     },
     {
       name: "FarQueue",
-      description: "Queuing from afar",
+      description: "queuing from afar",
     },
   ];
 
