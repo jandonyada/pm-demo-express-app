@@ -9,11 +9,12 @@ app.set("view engine", "ejs");
 // index page
 app.get("/", function (req, res) {
   const friends = [
-    { name: "Ian", department: "Engineer", interest: "Dota" },
-    { name: "Jess", department: "Product Manager", interest: "Running" },
-    { name: "Kendra", department: "Product Operations", interest: "Drinking" },
+    { name: "Shanty", department: "Design", interest: "Drinking" },
+    { name: "Anty", department: "Engineering", interest: "Tennis/soccer" },
+    { name: "Jackson", department: "Product Ops", interest: "Shitposting" },
+
   ];
-  const tagline = "These are my top 3 friends in OGP! ";
+  const tagline = "These are the 3 people in OGP I dislike the least! ";
 
   res.render("pages/index", {
     friends: friends,
@@ -25,12 +26,12 @@ app.get("/", function (req, res) {
 app.get("/work", function (req, res) {
   const works = [
     {
-      name: "SGC",
-      description: "SGC stuff",
+      name: "Isomer",
+      description: "Website builder for gahmen",
     },
     {
-      name: "Paulfessor",
-      description: "Teach PM stuff",
+      name: "FarQueue",
+      description: "Queuing from afar",
     },
   ];
 
