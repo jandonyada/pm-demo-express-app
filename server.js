@@ -67,7 +67,7 @@ const pool = new Pool({
 
 app.get('/status', (req, res) => res.send({ status: "I'm up and running" }));
 
-app.listen(port, () => console.log(`Node.js Application is listening on port ${port}!`));
+app.listen(3001, () => console.log(`Node.js Application is listening on port 3001!`));
 
 app.post('/insert', (req, res) => {
   const { username, email, age } = req.query;
@@ -103,5 +103,5 @@ app.get('/list', (req, res) => {
   });
 });
 
-app.listen(3000);
+app.listen(3001);
 console.log("Server is listening on specified port");
