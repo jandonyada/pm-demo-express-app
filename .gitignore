@@ -1,3 +1,4 @@
 .DS_Store
 pm-demo-express-app-jan.pem
 node_modules
+.env
