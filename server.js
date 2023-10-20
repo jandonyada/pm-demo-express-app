@@ -103,5 +103,5 @@ app.get('/list', (req, res) => {
   });
 });
 
-app.listen(port);
+app.listen(3000);
 console.log("Server is listening on specified port");
